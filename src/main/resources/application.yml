@@ -1,0 +1,20 @@
+spring:
+ datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: 
+  username: 
+  password: 
+endpoints:
+ configprops:
+  enabled: true
+ beans:
+  enabled: true
+logging:
+ level:
+  org:
+   hibernate:
+    SQL: DEBUG
+    type: 
+     descriptor:
+      sql:
+       BasicBinder: TRACE
